@@ -1,0 +1,24 @@
+{
+  "name": "gigakuznya-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ИС «ГигаКузня» — мобильное приложение (React Native + Expo, TypeScript)",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --lan",
+    "tunnel": "expo start --tunnel",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@types/react": "~19.3.0",
+    "expo": "latest",
+    "expo-build-properties": "~58.0.12",
+    "expo-constants": "~58.0.14",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.10.1",
+    "typescript": "~6.0.3"
+  }
+}

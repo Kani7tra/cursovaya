@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ГигаКузня",
+    "slug": "gigakuznya",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#f5f0e8",
+    "android": {
+      "package": "ru.gigakuznya.app",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "ios": {
+      "bundleIdentifier": "ru.gigakuznya.app",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "eff39bfc-a65b-49b3-8268-2f5b61cb8835"
+      }
+    }
+  }
+}
